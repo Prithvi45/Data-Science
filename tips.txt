@@ -1,1 +1,17 @@
 hyperplane - representation for multidimensional  data
+
+Dataframe creation:
+-from dict of series
+-from other column of DataFrame
+-from numpy array
+
+
+Accesssing values in DataFrame
+
+indexs -> df[1:2] 
+columns -> def[[1,2]]   /pass numpy array inside 
+
+loc() / returns o/p based on location passed 
+iloc  //returns o/p based on default index (0,1,2)
+iloc[1:2]
+iloc[1:3, 2:3]  --> rows,cols
